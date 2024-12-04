@@ -1,0 +1,306 @@
+html {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-weight: bold;
+    font-family: "Kalam", cursive;
+}
+
+.chuchuwa {
+    text-align: center;
+}
+
+.ledije {
+    background-color: #c2c0a6b6;
+    color: #000000;
+    padding: 10px;
+    border-radius: 19px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+    width: 60%;
+}
+
+.noledije {
+    background-color: #c2c0a600;
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 19px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+    width: 60%;
+}
+
+.peludo {
+
+    text-align: center;
+}
+
+.pitaya {
+
+    display: flex;
+    flex-wrap: wrap;
+    /* Ajusta el contenido automáticamente para pantallas pequeñas */
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #f8ede0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.shambar {
+    flex: 1;
+    background: #0b4957;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    min-width: 200px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.shambar h1 {
+    margin: 10px 0;
+}
+
+.shambar h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+.shambar i {
+    color: #fff;
+    /* Color blanco para los iconos */
+    font-size: 22px;
+    /* Tamaño del icono */
+}
+
+.shambar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.shambar ul li {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.coliflor {
+    flex: 2;
+    /* La sección principal ocupa más espacio */
+    padding: 20px;
+    min-width: 300px;
+    /* Ancho mínimo para pantallas pequeñas */
+}
+
+.coliflor h2 {
+    font-size: 20px;
+    color: #0b4957;
+    margin-bottom: 15px;
+    border-bottom: 2px solid#0b4957;
+    padding-bottom: 5px;
+}
+
+.coliflor ul {
+    list-style: none;
+    padding: 0;
+}
+
+.coliflor ul li {
+    margin-bottom: 15px;
+}
+
+.coliflor h3 {
+    font-size: 16px;
+    color: #0b4957;
+    margin-bottom: 5px;
+}
+
+.slamslamslam {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+p {
+    padding-top: 0px;
+    font-size: 18px;
+
+    color: #363636;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.descripchion {
+    font-size: 14px;
+    margin: 10px 0 20px;
+}
+
+.contactee {
+    background-color: #0b4957;
+    /* Azul de fondo */
+    color: #ffffff;
+    /* Texto en blanco */
+    padding: 15px;
+    /* Espaciado interno */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra */
+    margin: 20px 0;
+    /* Margen superior e inferior */
+    max-width: 600px;
+    /* Ancho máximo */
+    text-align: left;
+    /* Alineación del texto */
+}
+
+.contact-columns {
+    display: flex;
+    /* Hacer uso de un layout flexible */
+    flex-wrap: wrap;
+    /* Permitir ajuste si el contenido es demasiado amplio */
+    justify-content: space-between;
+    /* Espaciar columnas */
+    gap: 15px;
+    /* Espaciado entre columnas */
+}
+
+.contact-item {
+    display: flex;
+    /* Diseño en línea para icono y texto */
+    align-items: center;
+    flex: 1 1 45%;
+    /* Cada columna ocupa hasta el 45% del ancho */
+    margin-bottom: 10px;
+    /* Separación entre filas */
+}
+
+.contact-item i {
+    margin-right: 10px;
+    /* Espacio entre el icono y el texto */
+    font-size: 18px;
+    /* Tamaño del icono */
+    color: #ffffff;
+    /* Color de los iconos */
+}
+
+.contact-item a {
+    color: #ffffff;
+    /* Asegurarse de que los enlaces sean blancos */
+    text-decoration: none;
+    /* Quitar subrayado */
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+    /* Subrayado al pasar el mouse */
+}
+
+.education h3 {
+    font-size: 25px;
+}
+
+.education p {
+    font-size: 15px;
+    color: #5f5f5f;
+}
+
+.education span {
+    font-size: 19px;
+    color: #333333;
+}
+
+.experiencie h3 {
+    font-size: 25px;
+}
+
+.experiencie p {
+    font-size: 15px;
+    color: #5f5f5f;
+}
+
+.experiencie span {
+    font-size: 19px;
+    color: #333333;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location {
+    margin-left: auto;
+    text-align: right;
+}
+
+
+
+.timeline-section {
+    margin-top: 30px;
+}
+
+.timeline {
+    position: relative;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 2px solid #0b4957;
+    /* Línea vertical */
+}
+
+.timeline-item {
+    /* display: flex; */
+    align-items: flex-start;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline-item .circle {
+    width: 12px;
+    height: 12px;
+    background-color: #A8B545;
+    border-radius: 50%;
+    position: absolute;
+    left: -6px;
+    /* Centrar la bola sobre la línea */
+    top: 5px;
+}
+
+.timeline-item .content {
+    margin-left: 20px;
+}
+
+.timeline-item h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #0b4957;
+}
+
+.timeline-item p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 16px;
+}
+
+.timeline-item span {
+    font-size: 14px;
+    color: #6A8C69;
+}
